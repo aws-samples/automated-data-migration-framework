@@ -74,7 +74,7 @@ def execute_query(spark, query_path):
         if len(sql.strip()) > 0:
             print(sql)
             spark.sql(sql).show()
-            #print(spark.sql(sql))
+            print(spark.sql(sql))
 
 #def read_dms_data(spark,src_schema_name,table_name,env):
 #    dms_path = f's3://idl-dms-data-replication-uw2-processing-fin-{env}/dmstarget/{src_schema_name}/{table_name}/'
