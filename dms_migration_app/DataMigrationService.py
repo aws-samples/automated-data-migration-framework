@@ -140,7 +140,7 @@ class DataMigrationService(Construct):
             endpoint_type='source',
             engine_name='oracle',
             endpoint_identifier='oracle-endpoint',
-            database_name='ST1', 
+            database_name='orclpdb', 
             oracle_settings=dms.CfnEndpoint.OracleSettingsProperty(
                 secrets_manager_secret_id=props['secret_arn'],
                 secrets_manager_access_role_arn='arn:aws:iam::745551912460:role/dms-secret-access-role',
