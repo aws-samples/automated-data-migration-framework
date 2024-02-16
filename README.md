@@ -43,7 +43,7 @@ This project deploys the infrastructure through a CDK deployment. Make sure AWS 
 1. Clone the repo to your local machine and open it in your favorite IDE.
 
 #### Create the cx_Oracle AWS Lambda Layer
-2. For this frameworkm we need to create a cx_Oracle package and copy it into the `dms-app\lambda_layer` folder. 
+2. For this framework we need to create a cx_Oracle package and copy it into the `dms-app\lambda_layer` folder. 
    Below are the steps:
       1. EC2 Instance.
 

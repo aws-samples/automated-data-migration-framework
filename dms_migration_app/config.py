@@ -26,7 +26,7 @@ S3_ENDPOINT = 'dms-s3-endpoint'
 ORACLE_ENDPOINT = 'dms-oracle-endpoint'
 ORACLE_SECRET_NAME = 'oracle_creds'
 ORACLE_SECRET_ARN =''
-ORACLE_DBNAME = ''
+ORACLE_DBNAME = 'orclpdb'
 
 # MySQL properties
 MYSQL_ENDPOINT = 'dms-mysql-endpoint'
