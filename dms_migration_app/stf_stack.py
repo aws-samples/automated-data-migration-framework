@@ -85,6 +85,7 @@ class StfStack(NestedStack):
             lambda_function=props['get_splits_lambda'],
             output_path='$.Payload',
         )
+        
                 
         create_replciation_task = _aws_stepfunctions_tasks.LambdaInvoke(
             self,

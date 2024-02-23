@@ -7,6 +7,7 @@ from aws_cdk import (
 )
 from constructs import Construct
 
+
 class DynamoDbStack(NestedStack):
     def __init__(self, scope: Construct, id: str, props, **kwargs) -> None:
         super().__init__(scope, id, **kwargs)

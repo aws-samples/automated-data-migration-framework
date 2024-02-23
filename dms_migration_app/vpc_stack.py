@@ -46,6 +46,7 @@ class VpcStack(NestedStack):
         props['subnet_ids'] = subnet_ids
         props['vpc'] = self.vpc
         
+        
             
         CfnOutput(
                 self,

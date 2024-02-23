@@ -10,8 +10,6 @@
 #       3) Write the above Insert to S3 if the file doesn't exist (Override manually for any tuning parameters in S3 file)
 #       4) Execute the Insert SQL from S3 path
 #       5) Alter the Hive location to point to load_ts
-# History:
-# 2023-01-10 Vivek, Srini and Rohit
 # 2023-03-02 Add UTC timezone conversion in insert cast statements
 # 2023-03-07 Add drop partition logic for partitioned table before next refresh
 # *************************************************************/

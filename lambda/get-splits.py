@@ -8,6 +8,7 @@ import csv
 from datetime import datetime
 from botocore.exceptions import ClientError
 
+
 cx_Oracle.init_oracle_client(lib_dir="/opt/lib")
 logging.getLogger().setLevel(logging.INFO)
 

@@ -15,3 +15,4 @@ class AppStack (NestedStack):
         **kwargs
     ) -> None:
         super().__init__(scope, id, **kwargs)
+        

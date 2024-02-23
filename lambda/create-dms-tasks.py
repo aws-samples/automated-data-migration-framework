@@ -2,6 +2,7 @@ import os
 import logging
 import boto3
 
+
 # Configure logging
 LOGFORMAT = '[%(asctime)s]: %(levelname)s: %(message)s'
 logging.basicConfig(format=LOGFORMAT, datefmt='%Y-%m-%d %H:%M:%S')

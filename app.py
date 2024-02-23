@@ -44,4 +44,5 @@ emr_app_stack = EmrJobStack(application_stack, 'emr_app_stack', props=props)
 stf_stack = StfStack(application_stack, 'Stf_stack', props=props)
 
 
+
 app.synth()

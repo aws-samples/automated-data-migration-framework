@@ -142,6 +142,7 @@ class LamdaStack(NestedStack):
                                               )
         
         
+        
         dynamodb_table.grant_read_write_data(create_task_lambda.role)
         dynamodb_table.grant(create_task_lambda.role, "dynamodb:DescribeTable")
         create_task_lambda.role.add_managed_policy(iam_policy_createdmstask)

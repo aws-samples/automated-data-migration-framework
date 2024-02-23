@@ -9,6 +9,7 @@ from aws_cdk.aws_iam import(
     Effect,
 )
 
+
 class EmrServerlessExecutionRole(Construct):
     
     @property
